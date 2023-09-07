@@ -20,7 +20,12 @@ function GenerateButton() {
           <DirectionButtons setGradientAngle={setGradientAngle} />
         </div>
         <div className="color-div">
-          <ColorButton setColor={setColor} setColor2={setColor2} />
+          <ColorButton
+            color={color}
+            color2={color2}
+            setColor={setColor}
+            setColor2={setColor2}
+          />
         </div>
         <div className="generate-div">
           <button
@@ -39,7 +44,7 @@ function GenerateButton() {
           <p className="infos-p sc2">Selected Color 2: </p>
           <p className="infos-user c2">{color2}</p>
           <p className="infos-p r">
-            linear-gradient({gradientAngle}deg,{color},{color2})
+            linear-gradient({gradientAngle}deg , {color} , {color2})
           </p>
         </div>
       </body>

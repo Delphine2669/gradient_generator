@@ -1,5 +1,6 @@
 .gradient-app-block {
   display: flex;
+  /* margin-top: 16dvh; */
 }
 
 .generate-button {
@@ -58,4 +59,16 @@
 .right-button:hover,
 .left-button:hover {
   background-color: #eaeaea;
+}
+
+.gradient-header {
+  text-align: center;
+  position: relative;
+  /* margin-bottom: 50dvh; */
+  width: 100dvw;
+}
+
+.gradient-footer {
+  text-align: center;
+  position: relative;
 }
