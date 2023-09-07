@@ -1,0 +1,65 @@
+.gradient-app-block {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.direction-div {
+  margin-bottom: 5dvh;
+  margin-top: 5dvh;
+  justify-content: center;
+  display: flex;
+}
+.generate-div {
+  display: flex;
+  margin-bottom: 5dvh;
+  margin-top: 10dvh;
+  justify-content: center;
+}
+.color-div {
+  margin-top: 10dvh;
+  display: flex;
+  justify-content: center;
+}
+.infos-div {
+  text-align: center;
+  margin-top: 2dvh;
+  margin-left: 35dvw;
+  display: grid;
+  grid-template-columns: 0.3fr 0.3fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "sd ga"
+    "sc c1"
+    "sc2 c2"
+    "r r";
+}
+.r {
+  grid-area: r;
+}
+.sd {
+  grid-area: sd;
+}
+.ga {
+  grid-area: ga;
+}
+.sc {
+  grid-area: sc;
+}
+.c1 {
+  grid-area: c1;
+}
+.sc2 {
+  grid-area: sc2;
+}
+.c2 {
+  grid-area: c2;
+}
+.infos-p {
+  font-weight: bold;
+}
+.infos-user {
+}
+body {
+  width: 100%;
+}
