@@ -3,7 +3,7 @@ function Header() {
   return (
     <div className="gradient-header">
       <img src={logo} alt="logo gradient generator" className="logo" />
-      <h1>Gradient Generator</h1>
+      <h1 className="header-title">Gradient Generator</h1>
     </div>
   );
 }
