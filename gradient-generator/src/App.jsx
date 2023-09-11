@@ -1,15 +1,10 @@
-import "./App.css";
-import GenerateButton from "./components/GenerateButton";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import Home from "../src/pages/Home";
 function App() {
   return (
-    <>
-      <Header />
-      <GenerateButton />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
 }
-
 export default App;
