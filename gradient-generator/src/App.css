@@ -69,12 +69,13 @@
 }
 .logo {
   flex: 0 0 auto;
-  margin-right: 29dvw;
+
   margin-left: 3dvw;
 }
 .header-title {
   flex: 1;
   text-align: center;
+  margin-left: -10dvw;
 }
 
 .gradient-footer {
